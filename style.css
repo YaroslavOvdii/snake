@@ -1,0 +1,31 @@
+.grid {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid gray;
+}
+
+.grid div {
+  flex: 1 10%;
+}
+
+.snake {
+  background-color: black;
+}
+
+.apple {
+  background-color: red;
+  animation-name: fadeApple;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fadeApple{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

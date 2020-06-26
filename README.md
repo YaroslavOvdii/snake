@@ -1,2 +1,2 @@
 # snake
-Simple snake game on JS
+Simple snake game on native JS
